@@ -41,5 +41,5 @@ def order(sentence):
 
 
 ## Education
-2019 - cur. **Belarusian State University of Informatics and Radioelectronics**
+2019 - cur. **Belarusian State University of Informatics and Radioelectronics**<br>
 2021 - cur. **The Rolling Scopes School**
