@@ -1,8 +1,8 @@
 # Cherenkevich Vlad
 ## Contact information
-**Phone:**  +375336430173
-**Mail:** cherenkevich.vlad@gmail.com
-**GitHub:** [v14dik](https://github.com/V14dik)
+**Phone:**  +375336430173<br>
+**Mail:** cherenkevich.vlad@gmail.com<br>
+**GitHub:** [v14dik](https://github.com/V14dik)<br>
 **Linkedin:** https://www.linkedin.com/in/vlad-cherenkevich-b3193520b/
 
 ## About me
