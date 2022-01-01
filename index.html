@@ -1,1 +1,120 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skils" class="nav-link">Skils</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="profiler">
+                <img class="avatar"  src="assets/images/avatar.jpg" alt="Avatar">
+                <div class="container">
+                    <h1>Cherenkevich Vlad</h1>
+                    <h3>Junior Front-end Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contact information</h2>
+                <ul>
+                    <li>+375336430173</li>
+                    <li>cherenkevich.vlad@gmail.com</li>
+                    <li>V14dik</li>
+                </ul>
+            </section>
+            <section class="section" id="about">
+                <h2>About me</h2>
+                <article>
+                 I am a stress-resistant and responsible person. I love to learn new things and acquire knowledge. 
+                 I am student of Belarusian State University of Informatics and Radioelectronics. 
+                 My main goal at the moment is to become front-end developer.
+                </article>
+            </section>
+            <section class="section" id="skils">
+                <h2>Skils</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+            <section class="section" id=languages>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian(Native)</li>
+                    <li>English(A2)</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code example</h2>
+                <b>Task:</b>
+                <p>Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+                    Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+                    If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.</p>
+                <b>Solution:</b>
+                <p>
+                    <pre>
+                        <code data-language="python">
+                            def order(sentence):
+                                array = sentence.split(" ")
+                                string = ""
+                                for i in range(len(array) + 1):
+                                    for word in array:
+                                        if word.find(str(i)) != -1:
+                                            string += "".join(word) + " "
+                            return string[:-1]
+                        </code>
+                    </pre>
+                </p>
+            </section>
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a class="link" href="https://github.com/V14dik/PyLabs/tree/bot_develop">Telegram bot on Python with using Django</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>2019-cur. Belarusian State University of Informatics and Radioelectronics</li>
+                    <li>2021-cur. The Rolling Scopes School</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_item">
+            <a href="https://v14dik.github.io/rsschool-cv"> <img src="assets/images/github_wh.png" alt="github_logo"> </a>
+        </div>
+        <div class="footer_item">
+            <p>© <time>2022</time></p>
+        </div>
+        <div class="footer_item">    
+            <a  href="https://rs.school/js/"> <img class="footer_icon" src="assets/images/rs_school_js.svg" alt="rs_school_js"></a>
+        </div>
+    </footer>
+</body>
+</html>
