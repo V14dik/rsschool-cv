@@ -45,11 +45,9 @@
             </section>
             <section class="section" id="about">
                 <h2>About me</h2>
-                <article>
                  I am a stress-resistant and responsible person. I love to learn new things and acquire knowledge. 
                  I am student of Belarusian State University of Informatics and Radioelectronics. 
                  My main goal at the moment is to become front-end developer.
-                </article>
             </section>
             <section class="section" id="skils">
                 <h2>Skils</h2>
@@ -75,20 +73,18 @@
                     Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
                     If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.</p>
                 <b>Solution:</b>
-                <p>
-                    <pre>
-                        <code data-language="python">
-                            def order(sentence):
-                                array = sentence.split(" ")
-                                string = ""
-                                for i in range(len(array) + 1):
-                                    for word in array:
-                                        if word.find(str(i)) != -1:
-                                            string += "".join(word) + " "
-                            return string[:-1]
-                        </code>
-                    </pre>
-                </p>
+                <pre>
+                    <code data-language="python">
+                        def order(sentence):
+                            array = sentence.split(" ")
+                            string = ""
+                            for i in range(len(array) + 1):
+                                for word in array:
+                                    if word.find(str(i)) != -1:
+                                        string += "".join(word) + " "
+                        return string[:-1]
+                    </code>
+                </pre>
             </section>
             <section class="section" id="projects">
                 <h2>Projects</h2>
@@ -107,7 +103,7 @@
     </main>
     <footer class="footer">
         <div class="footer_item">
-            <a href="https://v14dik.github.io/rsschool-cv"> <img src="assets/images/github_wh.png" alt="github_logo"> </a>
+            <a href="https://github.com/V14dik"> <img src="assets/images/github_wh.png" alt="github_logo"> </a>
         </div>
         <div class="footer_item">
             <p>© <time>2022</time></p>
