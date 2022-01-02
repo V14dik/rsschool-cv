@@ -59,6 +59,12 @@ html {
   text-decoration: none;
   color: black;
 }
+.contacts-link {
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  height: 19px;
+}
 .link {
   color: black;
   transition: 0.3s;
